@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F409221A245942140030DD65 /* CarbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4092219245942140030DD65 /* CarbViewController.swift */; };
+		F40CAF5B2446EBFD00B3A78B /* GuidelinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CAF5A2446EBFD00B3A78B /* GuidelinesViewController.swift */; };
+		F43A90ED2459478400961FAA /* ProteinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A90EC2459478400961FAA /* ProteinViewController.swift */; };
+		F43A90EF2459479700961FAA /* FatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A90EE2459479700961FAA /* FatsViewController.swift */; };
+		F43A90F1245947A400961FAA /* MacroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A90F0245947A400961FAA /* MacroViewController.swift */; };
+		F43CF78A24245675002A0A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CF78924245675002A0A75 /* AppDelegate.swift */; };
+		F43CF78C24245675002A0A75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CF78B24245675002A0A75 /* SceneDelegate.swift */; };
+		F43CF78E24245675002A0A75 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43CF78D24245675002A0A75 /* MenuViewController.swift */; };
+		F43CF79124245675002A0A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43CF78F24245675002A0A75 /* Main.storyboard */; };
+		F43CF79324245677002A0A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43CF79224245677002A0A75 /* Assets.xcassets */; };
+		F43CF79624245677002A0A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43CF79424245677002A0A75 /* LaunchScreen.storyboard */; };
+		F45EC4D224460DE7007F6B53 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EC4D124460DE7007F6B53 /* Meal.swift */; };
+		F45EC4D424460E8B007F6B53 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EC4D324460E8B007F6B53 /* MealTableViewCell.swift */; };
+		F45EC4D824461332007F6B53 /* BreakfastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EC4D724461332007F6B53 /* BreakfastTableViewController.swift */; };
+		F45EC4DA2446A480007F6B53 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EC4D92446A480007F6B53 /* MealViewController.swift */; };
+		F45EC4DC2446BC8B007F6B53 /* LunchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EC4DB2446BC8B007F6B53 /* LunchTableViewController.swift */; };
+		F45EC4DE2446BD5A007F6B53 /* SnackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EC4DD2446BD5A007F6B53 /* SnackTableViewController.swift */; };
+		F45EC4E02446C0EA007F6B53 /* DessertTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EC4DF2446C0EA007F6B53 /* DessertTableViewController.swift */; };
+		F4A715402430B5A2002D8CA5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A7153F2430B5A2002D8CA5 /* File.swift */; };
+		F4D731DA2456E2B60084A622 /* NutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D731D92456E2B60084A622 /* NutritionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4092219245942140030DD65 /* CarbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbViewController.swift; sourceTree = "<group>"; };
+		F40CAF5A2446EBFD00B3A78B /* GuidelinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidelinesViewController.swift; sourceTree = "<group>"; };
+		F43A90EC2459478400961FAA /* ProteinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinViewController.swift; sourceTree = "<group>"; };
+		F43A90EE2459479700961FAA /* FatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatsViewController.swift; sourceTree = "<group>"; };
+		F43A90F0245947A400961FAA /* MacroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroViewController.swift; sourceTree = "<group>"; };
+		F43CF78624245675002A0A75 /* Chef Up!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chef Up!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43CF78924245675002A0A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F43CF78B24245675002A0A75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F43CF78D24245675002A0A75 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F43CF79024245675002A0A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F43CF79224245677002A0A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F43CF79524245677002A0A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F43CF79724245677002A0A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45EC4D124460DE7007F6B53 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		F45EC4D324460E8B007F6B53 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		F45EC4D724461332007F6B53 /* BreakfastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastTableViewController.swift; sourceTree = "<group>"; };
+		F45EC4D92446A480007F6B53 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		F45EC4DB2446BC8B007F6B53 /* LunchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchTableViewController.swift; sourceTree = "<group>"; };
+		F45EC4DD2446BD5A007F6B53 /* SnackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackTableViewController.swift; sourceTree = "<group>"; };
+		F45EC4DF2446C0EA007F6B53 /* DessertTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertTableViewController.swift; sourceTree = "<group>"; };
+		F4A7153F2430B5A2002D8CA5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		F4D731D92456E2B60084A622 /* NutritionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F43CF78324245675002A0A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F43CF77D24245675002A0A75 = {
+			isa = PBXGroup;
+			children = (
+				F43CF78824245675002A0A75 /* Chef Up! */,
+				F43CF78724245675002A0A75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F43CF78724245675002A0A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43CF78624245675002A0A75 /* Chef Up!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43CF78824245675002A0A75 /* Chef Up! */ = {
+			isa = PBXGroup;
+			children = (
+				F4A715432430C1D5002D8CA5 /* MealTableViewControllers */,
+				F4D731D72456E0090084A622 /* Meal Files */,
+				F4D731D82456E12E0084A622 /* Nutrition */,
+				F43CF78B24245675002A0A75 /* SceneDelegate.swift */,
+				F43CF78924245675002A0A75 /* AppDelegate.swift */,
+				F40CAF5A2446EBFD00B3A78B /* GuidelinesViewController.swift */,
+				F43CF78D24245675002A0A75 /* MenuViewController.swift */,
+				F4A7153F2430B5A2002D8CA5 /* File.swift */,
+				F43CF79424245677002A0A75 /* LaunchScreen.storyboard */,
+				F43CF78F24245675002A0A75 /* Main.storyboard */,
+				F43CF79224245677002A0A75 /* Assets.xcassets */,
+				F43CF79724245677002A0A75 /* Info.plist */,
+			);
+			path = "Chef Up!";
+			sourceTree = "<group>";
+		};
+		F4A715432430C1D5002D8CA5 /* MealTableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F45EC4DB2446BC8B007F6B53 /* LunchTableViewController.swift */,
+				F45EC4D724461332007F6B53 /* BreakfastTableViewController.swift */,
+				F45EC4DD2446BD5A007F6B53 /* SnackTableViewController.swift */,
+				F45EC4DF2446C0EA007F6B53 /* DessertTableViewController.swift */,
+			);
+			path = MealTableViewControllers;
+			sourceTree = "<group>";
+		};
+		F4D731D72456E0090084A622 /* Meal Files */ = {
+			isa = PBXGroup;
+			children = (
+				F45EC4D92446A480007F6B53 /* MealViewController.swift */,
+				F45EC4D124460DE7007F6B53 /* Meal.swift */,
+				F45EC4D324460E8B007F6B53 /* MealTableViewCell.swift */,
+			);
+			path = "Meal Files";
+			sourceTree = "<group>";
+		};
+		F4D731D82456E12E0084A622 /* Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				F4D731D92456E2B60084A622 /* NutritionViewController.swift */,
+				F4092219245942140030DD65 /* CarbViewController.swift */,
+				F43A90EC2459478400961FAA /* ProteinViewController.swift */,
+				F43A90EE2459479700961FAA /* FatsViewController.swift */,
+				F43A90F0245947A400961FAA /* MacroViewController.swift */,
+			);
+			path = Nutrition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F43CF78524245675002A0A75 /* Chef Up! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43CF79A24245677002A0A75 /* Build configuration list for PBXNativeTarget "Chef Up!" */;
+			buildPhases = (
+				F43CF78224245675002A0A75 /* Sources */,
+				F43CF78324245675002A0A75 /* Frameworks */,
+				F43CF78424245675002A0A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chef Up!";
+			productName = "Chef Up!";
+			productReference = F43CF78624245675002A0A75 /* Chef Up!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F43CF77E24245675002A0A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Elizabeth Frey";
+				TargetAttributes = {
+					F43CF78524245675002A0A75 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F43CF78124245675002A0A75 /* Build configuration list for PBXProject "Chef Up!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F43CF77D24245675002A0A75;
+			productRefGroup = F43CF78724245675002A0A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F43CF78524245675002A0A75 /* Chef Up! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F43CF78424245675002A0A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43CF79624245677002A0A75 /* LaunchScreen.storyboard in Resources */,
+				F43CF79324245677002A0A75 /* Assets.xcassets in Resources */,
+				F43CF79124245675002A0A75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F43CF78224245675002A0A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43A90EF2459479700961FAA /* FatsViewController.swift in Sources */,
+				F45EC4D824461332007F6B53 /* BreakfastTableViewController.swift in Sources */,
+				F43CF78E24245675002A0A75 /* MenuViewController.swift in Sources */,
+				F43A90ED2459478400961FAA /* ProteinViewController.swift in Sources */,
+				F409221A245942140030DD65 /* CarbViewController.swift in Sources */,
+				F4A715402430B5A2002D8CA5 /* File.swift in Sources */,
+				F45EC4E02446C0EA007F6B53 /* DessertTableViewController.swift in Sources */,
+				F45EC4DA2446A480007F6B53 /* MealViewController.swift in Sources */,
+				F45EC4DE2446BD5A007F6B53 /* SnackTableViewController.swift in Sources */,
+				F45EC4D224460DE7007F6B53 /* Meal.swift in Sources */,
+				F45EC4D424460E8B007F6B53 /* MealTableViewCell.swift in Sources */,
+				F45EC4DC2446BC8B007F6B53 /* LunchTableViewController.swift in Sources */,
+				F40CAF5B2446EBFD00B3A78B /* GuidelinesViewController.swift in Sources */,
+				F43A90F1245947A400961FAA /* MacroViewController.swift in Sources */,
+				F43CF78A24245675002A0A75 /* AppDelegate.swift in Sources */,
+				F43CF78C24245675002A0A75 /* SceneDelegate.swift in Sources */,
+				F4D731DA2456E2B60084A622 /* NutritionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F43CF78F24245675002A0A75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43CF79024245675002A0A75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F43CF79424245677002A0A75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43CF79524245677002A0A75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F43CF79824245677002A0A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F43CF79924245677002A0A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F43CF79B24245677002A0A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9873J8KSJ;
+				INFOPLIST_FILE = "Chef Up!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elizabethfrey.ChefUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F43CF79C24245677002A0A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9873J8KSJ;
+				INFOPLIST_FILE = "Chef Up!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elizabethfrey.ChefUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F43CF78124245675002A0A75 /* Build configuration list for PBXProject "Chef Up!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43CF79824245677002A0A75 /* Debug */,
+				F43CF79924245677002A0A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43CF79A24245677002A0A75 /* Build configuration list for PBXNativeTarget "Chef Up!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43CF79B24245677002A0A75 /* Debug */,
+				F43CF79C24245677002A0A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F43CF77E24245675002A0A75 /* Project object */;
+}
